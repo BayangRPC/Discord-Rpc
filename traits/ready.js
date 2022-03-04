@@ -1,4 +1,3 @@
-
 const chalk = require('chalk');
 const rpc = require("discordrpcgenerator");
 const config = require(".././config.json")
@@ -20,7 +19,7 @@ rpc.getRpcImage(config.applicationid, config.imagename).then(large => {
        
          
               //.setStartTimestamp(Date.now())
-                  client.user.setStatus("idle");
+                  client.user.setStatus("dnd");
               
        
                   client.user.setPresence(presence.toDiscord()).catch(console.error);
