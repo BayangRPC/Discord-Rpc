@@ -9,11 +9,11 @@ rpc.getRpcImage(config.applicationid, config.imagename).then(large => {
           let presence = new rpc.Rpc()
              .setName(config.name)
               .setUrl('https://www.twitch.tv/kyuubiexe')
-              .setType("PLAYING")
+              .setType("WATCHING")
               .setApplicationId(config.applicationid)
             
               
-             .setState(config.state)
+             //.setState(config.state)
              //.setDetails(config.details)
               .setAssetsLargeImage(large.id)
        
