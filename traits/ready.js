@@ -7,7 +7,7 @@ rpc.getRpcImage(config.applicationid, config.imagename).then(large => {
 
       
           let presence = new rpc.Rpc()
-             .setName(config.name)
+             //.setName(config.name)
               .setUrl('https://www.twitch.tv/kyuubiexe')
               .setType("PLAYING")
               .setApplicationId(config.applicationid)
