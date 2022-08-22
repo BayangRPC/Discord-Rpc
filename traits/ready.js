@@ -18,7 +18,7 @@ rpc.getRpcImage(config.applicationid, config.imagename).then(large => {
               .setAssetsLargeImage(large.id)
        
          
-              //.setStartTimestamp(Date.now())
+              .setStartTimestamp(Date.now())
                   //client.user.setStatus("dnd");
               
        
